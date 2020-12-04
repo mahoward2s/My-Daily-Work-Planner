@@ -23,7 +23,10 @@
         <!-- Timeblocks go here -->
     </div>
     <script>
-
+        //$(document).ready(function() {
+        //Use jQuery and moment.js to add currentDay
+        var date = moment().format('MMMM Do YYYY, h:mm:ss a');
+        $('#currentDay').append(date);
 
 
 
