@@ -1,77 +1,67 @@
-//Adds current date and time every second to HTML
-function updateTime() {
-    var date = moment().format('MMMM Do YYYY, h:mm:ss a');
-    console.log(date);
-    $('#currentDay').html(date);
-};
-updateTime();
-setInterval(function () {
-    updateTime();
-}, 1000);
-
 // Object to hold time
-var daySlots = [
+var timeSlots = [
     {
         id: '0',
         hour: '08',
         time: '08',
-        meridian:
-        reminder:
+        meridian: 'am',
+        reminder: "",
     },
     {
         id: '1',
         hour: '09',
         time: '09',
-        meridian:
-        reminder:
+        meridian: 'am',
+        reminder: "",
     },
     {
         id: '2',
         hour: '10',
         time: '10',
-        meridian:
-        reminder:
+        meridian: 'am',
+        reminder: "",
     },
     {
         id: '3',
         hour: '11',
         time: '11',
-        meridian:
-        reminder:
+        meridian: 'am',
+        reminder: "",
     },
     {
         id: '4',
         hour: '12',
         time: '12',
-        meridian:
-        reminder:
+        meridian: 'pm',
+        reminder: "",
     },
     {
         id: '5',
         hour: '01',
         time: '01',
-        meridian:
-        reminder:
+        meridian: 'pm',
+        reminder: "",
     },
     {
         id: '6',
         hour: '02',
         time: '02',
-        meridian:
-        reminder:
+        meridian: 'pm',
+        reminder: "",
     },
     {
         id: '7',
         hour: '03',
         time: '03',
-        meridian:
-        reminder:
+        meridian: 'pm',
+        reminder: "",
     },
     {
         id: '8',
         hour: '04',
         time: '04',
-        meridian:
-        reminder:
+        meridian: 'pm',
+        reminder: "",
     },
-]
+];
+

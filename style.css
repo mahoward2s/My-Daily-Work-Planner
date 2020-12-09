@@ -70,3 +70,7 @@ body {
     transition: all .3s ease-in-out;
   }
   
+  #currentDay {
+    font-weight: bold;
+    color: navy
+  }

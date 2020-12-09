@@ -27,6 +27,19 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <script src=script.js></script>
+    <script>
+        //Adds current date and time every second to HTML
+        function updateTime() {
+            var date = moment().format('MMMM Do YYYY, h:mm:ss a');
+            console.log(date);
+            $('#currentDay').html(date);
+        };
+        updateTime();
+        setInterval(function () {
+            updateTime();
+        }, 1000);
+    </script>
+
 </body>
 
 </html>
