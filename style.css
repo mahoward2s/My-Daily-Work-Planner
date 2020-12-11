@@ -12,6 +12,8 @@ body {
     color: #000000;
     border-left: 1px solid black;
     padding: 10px;
+    width: 100%;
+    height: 100%;
   }
   
   .jumbotron {
@@ -42,6 +44,7 @@ body {
     text-align: center;
     color: #000000;
     font-weight: bolder;
+    font-size: x-large;
     border-top: 1px dashed #000000;
   }
   

@@ -98,7 +98,7 @@ function init() {
 }
 
 
-// creates the visuals for the scheduler body
+// creates the visuals for the planner body
 myDay.forEach(function (thisHour) {
     // creates timeblocks
     var hourRow = $("<form>").attr({
@@ -113,7 +113,7 @@ myDay.forEach(function (thisHour) {
             "class": "col-md-2 hour"
         });
 
-    // creates schdeduler data
+    // creates planner data
     var hourPlan = $("<div>")
         .attr({
             "class": "col-md-9 description p-0"
